@@ -1,0 +1,300 @@
+repo_name: c3-luis-fernandez-de-la-vara/lazygit
+report_id: 7ef3745a7101e0cdf0fb177b019d2534
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-02T06:22:26+00:00'
+requested_by: stefanhaller
+provider: github
+branch: master
+detected_tools_count: 23
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit
+  detection_source: Repo Metadata
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/vendor/github.com/adrg/xdg/codecov.yml
+  detection_source: vendor/github.com/adrg/xdg/codecov.yml
+  last_updated_by: Ching Pei Yang
+  last_updated_on: 2023-08-17 11:52:55.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/.github/workflows/cd.yml
+  detection_source: ".github/workflows/cd.yml"
+  last_updated_by: kyu08
+  last_updated_on: 2023-08-21 09:10:52.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Karim Khaleel
+  last_updated_on: 2023-11-05 08:14:10.000000000 Z
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/vendor/github.com/mitchellh/go-ps/Vagrantfile
+  detection_source: vendor/github.com/mitchellh/go-ps/Vagrantfile
+  last_updated_by: Stefan Haller
+  last_updated_on: 2023-09-09 13:00:58.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: Jesse Duffield
+  last_updated_on: 2022-11-13 00:31:04.000000000 Z
+- name: wercker
+  description: Build, test, and deploy container-native applications
+  website_url: http://wercker.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/897/S67KcxKE.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/vendor/github.com/kyokomi/emoji/v2/wercker.yml
+  detection_source: vendor/github.com/kyokomi/emoji/v2/wercker.yml
+  last_updated_by: mjarkk
+  last_updated_on: 2021-07-16 12:06:01.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit
+  detection_source: Repo Metadata
+- name: afero
+  description: A FileSystem Abstraction System for Go
+  package_url: https://pkg.go.dev/github.com/spf13/afero
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Jesse Duffield
+  last_updated_on: 2023-07-30 08:36:04.000000000 Z
+- name: clipboard
+  description: Clipboard for golang
+  package_url: https://pkg.go.dev/github.com/atotto/clipboard
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Andre Mueller
+  last_updated_on: 2023-04-24 03:32:10.000000000 Z
+- name: exp
+  description: Experimental and deprecated packages
+  package_url: https://pkg.go.dev/golang.org/x/exp
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Dawid Dziurla
+  last_updated_on: 2019-08-26 14:53:38.000000000 Z
+- name: go-colorful
+  description: A library for playing with colors in go
+  package_url: https://pkg.go.dev/github.com/lucasb-eyer/go-colorful
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Jesse Duffield
+  last_updated_on: 2022-03-17 10:50:39.000000000 Z
+- name: go-deadlock
+  description: Online deadlock detection in go
+  package_url: https://pkg.go.dev/github.com/sasha-s/go-deadlock
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Stefan Haller
+  last_updated_on: 2023-11-18 15:01:03.000000000 Z
+- name: go-errors/errors
+  description: Errors with stacktraces for go
+  package_url: https://pkg.go.dev/github.com/go-errors/errors
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Jesse Duffield
+  last_updated_on: 2023-09-25 05:34:15.000000000 Z
+- name: go-ps
+  description: Find, list, and inspect processes from Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/go-ps
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Stefan Haller
+  last_updated_on: 2023-09-09 13:00:58.000000000 Z
+- name: go-runewidth
+  description: Go-runewidth Provides functions to get fixed width of the character
+    or string
+  package_url: https://pkg.go.dev/github.com/mattn/go-runewidth
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Stefan Haller
+  last_updated_on: 2023-08-02 09:34:01.000000000 Z
+- name: jibber_jabber
+  description: Cross Platform locale detection for Golang
+  package_url: https://pkg.go.dev/github.com/cloudfoundry/jibber_jabber
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Dawid Dziurla
+  last_updated_on: 2019-08-26 14:53:38.000000000 Z
+- name: logrus
+  description: Structured, pluggable logging for Go
+  package_url: https://pkg.go.dev/github.com/sirupsen/logrus
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Glenn Vriesman
+  last_updated_on: 2019-11-10 12:16:17.000000000 Z
+- name: mergo
+  description: 'Mergo: merging Go structs and maps since 2013'
+  package_url: https://pkg.go.dev/github.com/imdario/mergo
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Jesse Duffield
+  last_updated_on: 2020-10-07 22:02:34.000000000 Z
+- name: osext
+  description: Extensions to the standard "os" package
+  package_url: https://pkg.go.dev/github.com/kardianos/osext
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Glenn Vriesman
+  last_updated_on: 2019-11-10 12:16:17.000000000 Z
+- name: str
+  description: Package str is a string library to build more Go awesomeness
+  package_url: https://pkg.go.dev/github.com/mgutz/str
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/c3-luis-fernandez-de-la-vara/lazygit/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Dawid Dziurla
+  last_updated_on: 2019-08-26 14:53:38.000000000 Z
